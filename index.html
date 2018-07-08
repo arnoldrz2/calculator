@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible">
+    <title>Calculator Thingy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="public/css/style.css" />
+    <script src="public/js/logic.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3 class="row" style="text-align: center; ">Calculator Thingy</h3>
+
+        <div id="calculator" class="row calculator">
+            <!-- Answer Area -->
+            <div id="viewer" class="row viewer">0</div>   
+        
+            <!-- Input Buttons -->
+            <div class="row">
+                <a id="reset" class="reset waves-effect waves-light btn-large col s3">Reset</a>
+                <a id="clear" class="clear waves-effect waves-light btn-large col s3">C</a>
+                <a id="back" class="back waves-effect waves-light btn-large col s3">Back</a>
+                <a data-ops="divided by" class="ops waves-effect waves-light btn-large col s3">/</a>
+            </div>
+
+            <div class="row">
+                <a data-num="7" class="num waves-effect waves-light btn-large col s3">7</a>
+                <a data-num="8" class="num waves-effect waves-light btn-large col s3">8</a>
+                <a data-num="9" class="num waves-effect waves-light btn-large col s3">9</a>
+                <a data-ops="times" class="ops waves-effect waves-light btn-large col s3">x</a>
+            </div>
+
+            <div class="row">
+                <a data-num="4" class="num waves-effect waves-light btn-large col s3">4</a>
+                <a data-num="5" class="num waves-effect waves-light btn-large col s3">5</a>
+                <a data-num="6" class="num waves-effect waves-light btn-large col s3">6</a>
+                <a data-ops="minus" class="ops waves-effect waves-light btn-large col s3">-</a>
+            </div>
+
+            <div class="row">
+                <a data-num="1" class="num waves-effect waves-light btn-large col s3">1</a>
+                <a data-num="2" class="num waves-effect waves-light btn-large col s3">2</a>
+                <a data-num="3" class="num waves-effect waves-light btn-large col s3">3</a>
+                <a data-ops="plus" class="ops waves-effect waves-light btn-large col s3">+</a>
+            </div>
+
+            <div class="row">
+                <a data-ops="" class="neg waves-effect waves-light btn-large col s3">+/-</a>
+                <a data-num="0" class="num waves-effect waves-light btn-large col s3">0</a>
+                <a data-num="." class="num waves-effect waves-light btn-large col s3">.</a>
+                <a id="equals" class="equals waves-effect waves-light btn-large col s3" data-results="">=</a>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

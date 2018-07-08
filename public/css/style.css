@@ -1,0 +1,20 @@
+#calculator {
+    height: 470px;
+    width: 450px;
+    background-color: lightslategrey;
+    padding: 20px 20px 20px 20px;
+}
+
+#viewer {
+    background-color: whitesmoke;
+    text-align: right;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-right: 5px; 
+}
+
+.btn-large {
+    background-color: #6462d1;
+    font-size: 20px;
+}
